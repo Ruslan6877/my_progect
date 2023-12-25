@@ -118,7 +118,28 @@ nav ul li a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.creator{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.creator h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.creator img{
+    cursor: pointer;
+    width: 100px;
+    padding: 20px;
+}
+
 .contact{
+    padding: 40px 0;
     max-width: 100%;
     background-color: rgb(138, 138, 138);
 }
@@ -224,5 +245,13 @@ ul li a:hover {
     .info_user .img{
         width: 200px;
         height: 200px;
+    }
+}
+@media (max-width:340px){
+    nav ul{
+        margin-left: 0;
+    }
+    nav ul li a{
+        font-size: 13px;
     }
 }
