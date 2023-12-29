@@ -75,6 +75,9 @@ nav ul li a{
     transition: .7s;
 }
 
+.hero img{
+    transition: .9s;
+}
 .hero_info p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
@@ -186,6 +189,13 @@ ul li a{
     0 0 15px #000;
 
 }
+.hero img:hover{
+    color: #fff;
+    box-shadow: 
+        0 0 35px #fff,
+        0 0 35px #fff,
+        0 0 35px #fff;
+}
 
 ul li a:hover {
     color: #fff;
@@ -227,7 +237,7 @@ ul li a:hover {
 }
 .creator img:hover{
     color: #fff;
-    boxshadow: 
+    box-shadow: 
     0 0 25px #fff,
     0 0 25 #fff,
     0 0 25px #fff;
